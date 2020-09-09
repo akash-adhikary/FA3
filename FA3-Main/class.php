@@ -1,9 +1,9 @@
 <?php 
     class Admin
 	{
-			public grocery_name;
-			public quantity;
-			public price_per_unit;
+			public $grocery_name;
+			public $quantity;
+			public $price_per_unit;
 			
 			function _construct($grocery_name,$quantity,$price_per_unit)
 			{
